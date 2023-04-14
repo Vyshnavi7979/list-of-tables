@@ -1,0 +1,24 @@
+<html>
+<head><h1><center>script</center></h1>
+</head>
+<body>
+<script>
+var a=["manu","sai","ramya"]
+var b=["laddu","banni"]
+document.writeln(a.join(" ,")+"</br>")
+
+document.writeln(a.concat(b)+"</br>")
+
+document.writeln(a.push("nana")+"</br>")
+
+document.writeln(b.sort()+"</br>")
+
+document.writeln(a.reverse()+"</br>")
+
+document.writeln(a.shift()+"</br>")
+
+document.writeln(a.pop()+"</br>")
+document.writeln(a.slice()+"</br>")
+</script>
+</body>
+</html>
